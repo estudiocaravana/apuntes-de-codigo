@@ -178,18 +178,10 @@ com.estudiocaravana.Errata = {};
 					_getElementPath(_selectedRange.endContainer) + '/' + _letterToken + '_' + _selectedRange.endOffset
 			);
 
-			ip = $(_nsid + "ipAddress").val();
-
 			data = "errata=" + encodeURIComponent(errata) +
 				"&correction=" + encodeURIComponent(correction) +
 				"&url=" + encodeURIComponent(document.URL) +
-				"&path=" + encodeURIComponent(path) +
-				"&ip=" + encodeURIComponent(ip);
-
-			postID = $(_nsid + "postID").val();
-			if (postID) {
-				data += "&postID=" + encodeURIComponent(postID);
-			}
+				"&path=" + encodeURIComponent(path);
 
 			console.log("Cuerpo del mensaje enviado: " + data);
 

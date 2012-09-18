@@ -1,4 +1,10 @@
 #com-estudiocaravana-errata-boxWrapper{
+	   -moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	        box-sizing: border-box;
+}
+
+#com-estudiocaravana-errata-boxWrapper{
 	position:absolute; 
 	display:none;
 	z-index: 9999;

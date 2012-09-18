@@ -46,21 +46,24 @@ table {
 	border-spacing: 0;
 }
 
+html {
+  font-family: 'Crimson Text', Georgia, "Century Gothic", AppleGothic, sans-serif;
+  color: #333;
+}
+
 /* LAYOUT STYLES */
 body {
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: 1.5; 
-  background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;
-  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+  background: white url('http://estudiocaravana.com/wp-content/themes/estudiocaravana/images/fondos/linea_horizontal.png') -40px;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-  color: #6d6d6d;
 }
 
 a {
-  color: #d5000d;
+  color: #7EC5EB;
 }
 a:hover {
-  color: #c5000c;
+  color: #444;;
 }
 
 header {
@@ -69,11 +72,8 @@ header {
 }
 
 header h1 {
-  font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif; font-weight: 900;
-  letter-spacing: -1px;
-  font-size: 48px;
-  color: #303030;
-  line-height: 1.2;
+  font-family: 'Crimson Text', Georgia, "Century Gothic", AppleGothic, sans-serif; color:#666; font-weight:normal;
+  margin: 0; font-size: 3.75em; line-height: 1.2em; margin-bottom: 0.4em
 }
 
 header h2 {
@@ -85,7 +85,6 @@ header h2 {
 }
 
 #container {
-  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
   min-height: 595px;
 }
 
