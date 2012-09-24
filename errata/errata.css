@@ -11,41 +11,42 @@
 }
 
 #com-estudiocaravana-errata-box{
-	background: #eee; 
+	background: #fff; 
 	position:absolute; 
 	width: 230px; 
-	padding: 10px;	
+	padding: 10px;
+	color:#808080;
+	line-height:1.7em;	
+	border:1px solid #ccc;
+	border-radius:7px;
+	-webkit-border-radius: 7px;
+	box-shadow: 2px 2px 5px #999;
+	 -webkit-box-shadow: 2px 2px 5px #999;
+	  -moz-box-shadow: 2px 2px 5px #999;
+}
+#com-estudiocaravana-errata-box a {color:#70afd1;}
+#com-estudiocaravana-errata-box a, #com-estudiocaravana-errata-status-sendingErrata, #com-estudiocaravana-errata-status-errataSent {
+	font-family:CrimsonBold; display:block;
+}
+#com-estudiocaravana-errata-box a.com-estudiocaravana-errata-send { 
+	width:210px; 
+	padding:5px 10px; 
+	margin-top:20px; 
+	text-align:center; 
+	background:#585858; 
+	color:#fff; 
+	border-radius:7px; 
+	-webkit-border-radius:7px;}
+#com-estudiocaravana-errata-box a.com-estudiocaravana-errata-more {
+	margin-top:10px;
+}
+#com-estudiocaravana-errata-errata {
+	font-style:italic; color:#000;
 }
 
-#com-estudiocaravana-errata-form{
+.com-estudiocaravana-errata-error{ 
+	color:red;
+}
+#com-estudiocaravana-errata-form, #com-estudiocaravana-errata-details, #com-estudiocaravana-errata-status-sendingErrata, #com-estudiocaravana-errata-status-errataSent, .com-estudiocaravana-errata-error{ 
 	display: none;
-}
-
-#com-estudiocaravana-errata-details{
-	display: none;
-}
-
-
-#com-estudiocaravana-errata-status-sendingErrata{
-	display: none;
-}
-
-#com-estudiocaravana-errata-status-errataSent{
-	display: none;
-}
-
-.com-estudiocaravana-errata-error{
-	display: none;
-}
-
-.com-estudiocaravana-errata-mark{
-	background-color: red;
-}
-
-.com-estudiocaravana-errata-left:after{
-	content: "[";
-}
-
-.com-estudiocaravana-errata-right:after{
-	content: "]";
 }

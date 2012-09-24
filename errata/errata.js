@@ -229,10 +229,10 @@ com.estudiocaravana.Errata = {};
 						'<br>' +
 						'Corrección:' +
 						'<input type="text" name="com-estudiocaravana-errata-correction" value="" id="com-estudiocaravana-errata-correction"/>' +
-						'<span id="com-estudiocaravana-errata-correction-error-nocorrection" class="com-estudiocaravana-errata-error">Debe introducir un error</span>' +
+						'<span id="com-estudiocaravana-errata-correction-error-nocorrection" class="com-estudiocaravana-errata-error">Debe introducir la corrección</span>' +
 						'<br>' +
-						'<a href="javascript:errata.showDetails()">Más detalles</a>' +
-						'<br>' +
+						'<a href="javascript:errata.showDetails()" class="com-estudiocaravana-errata-more">+ detalles</a>' +
+						'' +
 						'<div id="com-estudiocaravana-errata-details">' +
 							'Descripción:' +
 							'<br>' +
@@ -242,7 +242,7 @@ com.estudiocaravana.Errata = {};
 							'<span id="com-estudiocaravana-errata-email-error-invalidformat" class="com-estudiocaravana-errata-error">Correo no válido</span>' +
 							'<br>' +
 						'</div>' +
-						'<a href="javascript:errata.sendErrata()">Enviar aviso de error</a>' +
+						'<a href="javascript:errata.sendErrata()" class="com-estudiocaravana-errata-send">Enviar aviso de error</a>' +
 					'</div>' +
 					'<div id="com-estudiocaravana-errata-status">' +
 						'<span id="com-estudiocaravana-errata-status-sendingErrata">Enviando error...</span>' +
